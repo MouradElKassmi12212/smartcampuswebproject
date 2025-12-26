@@ -1,0 +1,2 @@
+# Renommez ce fichier en .nojekyll (sans extension .txt)
+# Ce fichier est nécessaire pour GitHub Pages
