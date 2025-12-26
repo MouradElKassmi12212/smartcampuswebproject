@@ -10,11 +10,11 @@ Site web pour le smart campus de l'Université Privée de Fès avec portail étu
    - Allez dans `Settings` > `Pages`
    - Source : Sélectionnez `GitHub Actions`
 
-2. **Le nom du repository doit être :** `smartcampuswebproject`
+2. **Le repository peut avoir n'importe quel nom** (la configuration utilise maintenant un chemin relatif)
 
 ### Déploiement automatique
 
-Le projet se déploie automatiquement sur GitHub Pages à chaque push sur la branche `main`.
+Le projet se déploie automatiquement sur GitHub Pages à chaque push sur la branche `main` ou `master`.
 
 Le workflow GitHub Actions :
 - ✅ Installe les dépendances
@@ -25,7 +25,7 @@ Le workflow GitHub Actions :
 
 Une fois déployé, le site sera accessible à :
 ```
-https://[votre-username].github.io/smartcampuswebproject/
+https://[votre-username].github.io/[nom-de-votre-repo]/
 ```
 
 ## 🔐 Identifiants de test
