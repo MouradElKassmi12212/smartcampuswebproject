@@ -1,6 +1,5 @@
 import { Menu, X, Wifi, Bell } from "lucide-react";
 import { useState } from "react";
-import logoUpf from "figma:asset/f70036e239744f0488cac5aeaeafff846a7fbffe.png";
 
 interface HeaderProps {
   onPortalClick: () => void;
@@ -15,7 +14,7 @@ export function Header({ onPortalClick }: HeaderProps) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src={logoUpf} alt="UPF Logo" className="h-12" />
+            <img src="/logo-upf.svg" alt="UPF Logo" className="h-12" />
           </div>
 
           {/* Desktop Navigation */}

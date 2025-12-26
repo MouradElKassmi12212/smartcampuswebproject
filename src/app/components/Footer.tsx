@@ -1,5 +1,4 @@
 import { Wifi, Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react";
-import logoUpf from "figma:asset/f70036e239744f0488cac5aeaeafff846a7fbffe.png";
 
 export function Footer() {
   return (
@@ -9,7 +8,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img src={logoUpf} alt="UPF Logo" className="h-12 brightness-0 invert" />
+              <img src="/logo-upf.svg" alt="UPF Logo" className="h-12 brightness-0 invert" />
             </div>
             <div>
               <h3 className="font-bold text-white">SmartCampus</h3>

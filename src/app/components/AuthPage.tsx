@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { ArrowLeft, Eye, EyeOff, Wifi, Lock, User, Mail } from "lucide-react";
-import logoUpf from "figma:asset/f70036e239744f0488cac5aeaeafff846a7fbffe.png";
 
 interface AuthPageProps {
   onBack: () => void;
@@ -61,7 +60,7 @@ export function AuthPage({ onBack, onLogin, onAdminLogin }: AuthPageProps) {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-3 mb-4">
-            <img src={logoUpf} alt="UPF Logo" className="h-16" />
+            <img src="/logo-upf.svg" alt="UPF Logo" className="h-16" />
           </div>
         </div>
 
